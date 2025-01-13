@@ -1,0 +1,68 @@
+header{
+display: flex;
+justify-content: space-between;
+background-color: aqua;
+background-image:url(bridge.webp);
+background-size: cover;
+h1{
+    
+    font-family: "Codystar", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: solid;text-decoration: double;
+  
+      color: rgb(52, 177, 166);
+      font-size: 70px;
+      margin: 0;
+}
+}
+
+header ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+div.bridge{
+
+    height: 450px;
+    background-image: url(bridge.webp);
+    background-size: cover;
+
+    margin-left: 0;
+    h2{color: #e8ef0f8f;}
+    margin-top: 0;
+}
+div.city{
+    background-color: rgb(56, 154, 154);
+    width: 500px;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: rgba(red, green, blue, alpha);
+
+
+}
+div.city img{
+    width: 500px;
+    border-radius: 30px;
+}
+body{
+    background-image: url(sky1.gif);
+    background-size: auto;
+}
+header a:hover{
+    color: rgb(249, 12, 12);
+    transform: scale(1.1);
+    display: block;
+    transform:translateY(-10px)
+
+}
+header a {
+    transition: all 0.5s;
+}
+h2{
+    margin: 0;
+}
